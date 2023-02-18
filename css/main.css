@@ -748,11 +748,6 @@ video {
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
-.bg-veryLightGray {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
-}
-
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(233 12% 13% / var(--tw-bg-opacity));
@@ -811,6 +806,14 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-serif {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-4xl {
@@ -875,20 +878,11 @@ body{
   background-position: 90% -25%;
 }
 
-#cta{
-  background-image: url();
-  background-repeat: no-repeat;
-}
-
 @media(max-width: 576px)
 {
   body{
     background-position: 50px -50px;
     background-size: 500px;
-  }
-
-  #cta{
-    background-image: url('');
   }
 }
 
